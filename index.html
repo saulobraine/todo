@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do APP</title>
+    <style>
+        body, button, input {
+            text-align: center;
+            font-family: "Poppins";
+        }
+
+        input {
+            padding: 8px 15px;
+            border-radius: 4px;
+        }
+
+        button,
+        .button {
+            text-decoration: none;
+            display: inline-flex;
+            background: black;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            transition: .2s all;
+        }
+
+        button:hover,
+        .button:hover {
+            transition: .2s all;
+            transform: translateY(-10px)
+        }
+
+        ul {
+            list-style: none;
+            padding: 0
+        }
+
+        li {
+            margin-bottom: 10px;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        li span {
+            cursor: pointer;
+        }
+
+        li .checkTodo {
+            margin-right: 10px;
+        }
+
+        li .removeTodo {
+            display: inline-flex;
+            font-size: 80%;
+            margin-left: 10px;
+            background-color: red;
+            font-weight: 600;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            transition: .2s all;
+            cursor: pointer;
+        }
+
+        li .removeTodo:hover {
+            transition: .2s all;
+            transform: translateX(-5px)
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div id="app"></div>
+    <script src="todos.js"></script>
+</body>
+</html>
