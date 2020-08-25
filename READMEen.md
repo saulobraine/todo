@@ -32,28 +32,28 @@
 
 ---
 
-## **Sobre o projeto**
+## **About the project**
 
-Simples todo list com armazenamento no localStorage.
-
----
-
-## **Funcionalidades**
-
-- [x] Criar novos todos;
-- [x] Marcar todo como finalizado;
-- [x] Desmarcar todo como finalizado;
-- [x] Remover todo;
-- [x] Os todos ficam salvo na memória do navegador.
+Simple todo list with localStorage.
 
 ---
 
-## **Executando o projeto**
+## **Funcionalities**
 
-Basta abrir o arquivo index.html
+- [x] Create new todos;
+- [x] Task a todo;
+- [x] Untask a todo;
+- [x] Remove a todo;
+- [x] All active todos stay on localStorage.
+
+---
+
+## **Running the project**
+
+Run the index.html file.
 
 ---
 
 
-## Licença
-Este projeto esta sobe a licença <a href="https://github.com/saulobraine/todo/blob/master/LICENSE" alt="License">GNU</a>
+## License
+This project is under <a href="https://github.com/saulobraine/todo/blob/master/LICENSE" alt="License">GNU</a> license.
